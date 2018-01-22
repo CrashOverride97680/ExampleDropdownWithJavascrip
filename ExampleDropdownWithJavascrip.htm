@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+</head>
+<body>
+
+<form>
+Select your object:
+<select id="mySelect">
+  <option value="-----">----</option>
+  <option value="Oggetto1">Oggetto1</option>
+  <option value="Oggetto2">Oggetto2><option>
+  <option value="Oggetto3">Oggetto3</option>
+  <option value="banana">Oggetto4</option>
+</select>
+</form>
+<script>
+document.getElementById("mySelect").onclick = function myFunction() {
+    var a = document.getElementById("mySelect").value;
+	console.log(a);
+}
+</script>
+
+</body>
+</html>
